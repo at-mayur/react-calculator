@@ -1,0 +1,13 @@
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    width: 22%;
+    height: 18%;
+    border-radius: 50%;
+    color: white;
+    cursor: default;
+    user-select: none;
+}
