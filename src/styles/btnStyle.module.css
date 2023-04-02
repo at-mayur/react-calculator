@@ -1,4 +1,5 @@
 
+/* Styles for button component. disabling user select effect for button */
 .btn{
     display: flex;
     justify-content: center;

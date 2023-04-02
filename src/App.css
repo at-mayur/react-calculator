@@ -1,3 +1,4 @@
+/* Styles for App component */
 .App {
   background-color: black;
   width: 25vw;
@@ -6,6 +7,7 @@
   border-radius: 20px;
 }
 
+/* Media queries to scale app according to screen sizes */
 @media screen and (max-width: 1300px) {
   .App{
     width: 30vw;
