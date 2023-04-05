@@ -5,7 +5,7 @@ import classes from "../styles/numberPadStyle.module.css";
 import Button from "./button";
 
 // Functional NumberPad component
-function numberPad(props) {
+function NumberPad(props) {
   return (
     // render all buttons and passing respective symbol, color, color on hover and action for button as props
     <div className={classes.keys}>
@@ -137,4 +137,4 @@ function numberPad(props) {
   );
 }
 
-export default numberPad;
+export default NumberPad;

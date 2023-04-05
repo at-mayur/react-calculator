@@ -3,7 +3,7 @@ import classes from "../styles/btnStyle.module.css";
 
 
 // Functional button component
-function button(props) {
+function Button(props) {
     // Functions controlling hover action for button
   function mouseOver(event) {
     event.target.style.backgroundColor = props.hoverColor;
@@ -28,4 +28,4 @@ function button(props) {
   );
 }
 
-export default button;
+export default Button;

@@ -2,7 +2,7 @@
 import classes from "../styles/displayStyle.module.css";
 
 // Functional display component
-function display(props){
+function Display(props){
     return (
         <div className={classes.display}>
             {/* Setting default value with expression received from props */}
@@ -11,4 +11,4 @@ function display(props){
     );
 }
 
-export default display;
+export default Display;
