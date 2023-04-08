@@ -69,7 +69,7 @@ class App extends React.Component {
     // if current expression on screen is not number
     else{
       // if start character is -
-      if(this.state.query.charAt(0) === "-"){
+      if(this.state.query.charAt(0) === "-" && this.state.query.substring(1).length===0){
         this.setState((prevState) => {
           return {
             // drop that - character to make that number positive
